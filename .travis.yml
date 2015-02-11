@@ -1,5 +1,9 @@
 language: python
 
+os:
+ - osx
+ - linux
+
 before_install:
  # https://code.google.com/p/gyp/wiki/GypHacking
  - git clone --depth 1 https://chromium.googlesource.com/chromium/tools/depot_tools.git
